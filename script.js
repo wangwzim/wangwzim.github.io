@@ -18,8 +18,9 @@
 
   const filters = document.querySelector('.filters');
   const publications = [...document.querySelectorAll('.publication')];
-  filters.hidden = false;
-  filters.addEventListener('click', (event) => {
+  if (filters) {
+    filters.hidden = false;
+    filters.addEventListener('click', (event) => {
     const button = event.target.closest('[data-filter]');
     if (!button) return;
     filters.querySelectorAll('button').forEach((item) => item.setAttribute('aria-pressed', String(item === button)));
@@ -29,7 +30,8 @@
       if (!paper.hidden) visible += 1;
     });
     document.querySelector('#publication-count').textContent = `${visible} of ${publications.length} works`;
-  });
+    });
+  }
 
   document.querySelectorAll('.bib-toggle').forEach((button) => {
     button.hidden = false;
