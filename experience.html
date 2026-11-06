@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Education, honors, teaching, academic service, and selected talks by Weizhen Wang at Shanghai Jiao Tong University.">
+  <meta name="description" content="Research highlights, education, honors, teaching, academic service, and selected talks by Weizhen Wang at Shanghai Jiao Tong University.">
   <meta name="theme-color" content="#276c8e">
-  <title>Experience | Weizhen Wang</title>
+  <title>Experience &amp; Highlights | Weizhen Wang</title>
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20261107">
   <script>try { const t = localStorage.getItem('weizhen-theme'); if (t === 'dark' || t === 'light') document.documentElement.dataset.theme = t; } catch (_) {}</script>
-  <script src="script.js" defer></script>
+  <script src="script.js?v=20261107" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -32,20 +32,50 @@
   </header>
   <main id="main" class="shell experience-page">
     <div class="page-heading" id="experience">
-      <h1>Experience</h1>
+      <h1>Experience <span>&amp; highlights</span></h1>
+      <p>Research milestones and academic activities.</p>
     </div>
+    <!-- HIGHLIGHTS: dates refer to the event, acceptance, or first preprint release. -->
+    <section id="highlights" class="section highlights-section" aria-labelledby="highlights-title">
+      <div class="section-heading"><h2 id="highlights-title">Selected highlights</h2></div>
+      <ul class="highlight-list">
+        <li>
+          <time datetime="2026-08">Aug. 2026</time>
+          <p><span class="highlight-kind">Talk</span> Presented our work on <a href="index.html#defense-allocation">joint defense allocation and surveillance</a> at the IFAC World Congress in Busan, South Korea.</p>
+        </li>
+        <li>
+          <time datetime="2026-07">Jul. 2026</time>
+          <p><span class="highlight-kind">Acceptance</span> The conference version of our work on <a href="index.html#policy-gradient">policy-gradient methods under distribution mismatch</a> was accepted to IEEE CDC 2026.</p>
+        </li>
+        <li>
+          <time datetime="2026-05">May 2026</time>
+          <p><span class="highlight-kind">Preprint</span> Shared our <a href="index.html#persistent-monitoring">multi-robot persistent monitoring preprint</a>, connecting worst-case latency objectives with reinforcement-learning solutions.</p>
+        </li>
+        <li>
+          <time datetime="2025">2025</time>
+          <p><span class="highlight-kind">Award</span> Received the <strong>National Scholarship for Ph.D. Students</strong> at Shanghai Jiao Tong University.</p>
+        </li>
+      </ul>
+    </section>
+    <div class="experience-overview">
     <section id="education" class="section" aria-labelledby="education-title">
       <div class="section-heading"><h2 id="education-title">Education</h2></div>
-      <div class="entry">
-        <div><h3>Shanghai Jiao Tong University</h3><p>Ph.D. in Automation</p><p class="detail">Advisor: Prof. Xiaoming Duan</p></div>
-        <time>Sep. 2023 — Present</time>
-      </div>
-      <div class="entry">
-        <div><h3>Zhejiang University</h3><p>B.E. in Marine Engineering and Technology</p></div>
-        <time>Aug. 2019 — Jun. 2023</time>
-      </div>
+      <ol class="education-timeline">
+        <li>
+          <p class="timeline-date"><time datetime="2023-09">Sep. 2023</time> — Present</p>
+          <h3>Shanghai Jiao Tong University</h3>
+          <p>Ph.D. in Automation</p>
+          <p class="detail">School of Automation and Intelligent Sensing</p>
+          <p class="detail">Advisor: Prof. Xiaoming Duan</p>
+        </li>
+        <li>
+          <p class="timeline-date"><time datetime="2019-08">Aug. 2019</time> — <time datetime="2023-06">Jun. 2023</time></p>
+          <h3>Zhejiang University</h3>
+          <p>B.E. in Marine Engineering and Technology</p>
+        </li>
+      </ol>
     </section>
-    <section class="section" aria-labelledby="honors-title">
+    <section id="honors" class="section" aria-labelledby="honors-title">
       <div class="section-heading"><h2 id="honors-title">Honors &amp; awards</h2></div>
       <ul class="honor-list">
         <li><time>2025</time><div>National Scholarship for Ph.D. Students <small>· Shanghai Jiao Tong University</small></div></li>
@@ -55,7 +85,8 @@
         <li><time>2020</time><div>Second Prize, Zhejiang Province College Student Physics Innovation Competition</div></li>
       </ul>
     </section>
-    <section class="section" aria-labelledby="teaching-title">
+    </div>
+    <section id="teaching" class="section" aria-labelledby="teaching-title">
       <div class="section-heading"><h2 id="teaching-title">Teaching &amp; service</h2></div>
       <div class="service-grid">
         <div>
@@ -75,7 +106,7 @@
         </div>
       </div>
     </section>
-    <section class="section" aria-labelledby="talks-title">
+    <section id="talks" class="section" aria-labelledby="talks-title">
       <div class="section-heading"><h2 id="talks-title">Selected talks</h2></div>
       <ul class="talk-list">
         <li><time>Aug. 2026</time><div><p><strong>IFAC World Congress</strong> · Busan, South Korea</p><p class="talk-title">Joint Optimization of Defense Allocations and Surveillance Strategies against Random Intruders</p></div></li>
