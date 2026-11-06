@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Weizhen Wang is a Ph.D. student at Shanghai Jiao Tong University, researching reinforcement learning, robotic monitoring, and sequential decision-making, and exploring the intersection of LLMs and RL.">
+  <meta name="theme-color" content="#276c8e">
+  <title>Weizhen Wang | Shanghai Jiao Tong University</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script>try { const t = localStorage.getItem('weizhen-theme'); if (t === 'dark' || t === 'light') document.documentElement.dataset.theme = t; } catch (_) {}</script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="wordmark" href="#about">Weizhen Wang<span class="sr-only"> — home</span></a>
+      <div class="header-right">
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#about" aria-current="location">About</a>
+          <a href="#publications">Publications</a>
+          <a class="desktop-link" href="#experience">Experience</a>
+          <a class="desktop-link" href="assets/CV.pdf" target="_blank" rel="noopener">CV ↗</a>
+        </nav>
+        <button class="theme-toggle" type="button" aria-label="Switch to dark theme" hidden>
+          <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M20.8 14.1A8.8 8.8 0 0 1 9.9 3.2 9 9 0 1 0 20.8 14.1Z"/></svg>
+          <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+  <main id="main" class="shell">
+    <!-- ABOUT: update your biography and contact details here. -->
+    <section id="about" aria-labelledby="name">
+      <div class="intro">
+        <div class="bio">
+          <p class="eyebrow">Learning · Decision-making · Robotics</p>
+          <h1 id="name">Weizhen Wang</h1>
+          <p class="position">Ph.D. student · Shanghai Jiao Tong University</p>
+          <p>I am a Ph.D. student in the School of Automation and Intelligent Sensing at <a href="https://en.sjtu.edu.cn/" target="_blank" rel="noopener">Shanghai Jiao Tong University</a>, advised by Prof. <a href="https://xmduan.github.io/" target="_blank" rel="noopener">Xiaoming Duan</a>. I received my B.E. from <a href="https://www.zju.edu.cn/english/" target="_blank" rel="noopener">Zhejiang University</a> in 2023.</p>
+          <p>My research explores sequential decision-making and learning in robotic systems, with <strong>persistent monitoring</strong> as a central application. I am interested in how robot teams can plan and coordinate efficiently over time. My work ranges from studying stochastic patrols through Markov-chain models to developing multi-agent reinforcement learning (MARL) approaches for deterministic monitoring, using Markov decision process formulations.</p>
+          <p>Building on this work, I study broader theoretical and algorithmic questions in reinforcement learning (RL) and MARL, including the theoretical analysis of policy-gradient methods and the development of efficient MARL algorithms for robotic patrolling.</p>
+          <p>I am currently exploring new research directions at the intersection of <strong>large language models (LLMs) and reinforcement learning</strong>. Please feel free to <a href="mailto:wangwz.im@gmail.com">contact me</a> to exchange research ideas or explore opportunities for collaboration!</p>
+          <div class="contact-links">
+            <a href="mailto:wangwz.im@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg>wangwz.im@gmail.com</a>
+            <a href="assets/CV.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8Z"/><path d="M14 3v5h5M8 12h8m-8 4h6"/></svg>Curriculum Vitae ↗</a>
+            <a href="https://scholar.google.com/citations?user=BCDmdxAAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener">Google Scholar ↗</a>
+            <a href="https://orcid.org/0009-0009-9630-356X" target="_blank" rel="noopener">ORCID ↗</a>
+          </div>
+        </div>
+        <figure class="portrait">
+          <img src="assets/portrait.jpg" width="1600" height="1067" alt="Weizhen Wang beside the Mediterranean Sea" fetchpriority="high">
+          <figcaption>By the sea, Nice, France.</figcaption>
+        </figure>
+      </div>
+      <div class="interests" aria-label="Research interests">
+        <span>Reinforcement Learning</span><span>Robotic Monitoring</span><span>Sequential Decision-Making</span>
+      </div>
+    </section>
+    <!-- PUBLICATIONS: each article includes an introduction, verified links, and a citation. -->
+    <section id="publications" class="section" aria-labelledby="publications-title">
+      <div class="section-heading">
+        <h2 id="publications-title">Publications <span class="section-number">&amp; preprints</span></h2>
+        <p id="publication-count" class="section-note" aria-live="polite">7 works</p>
+      </div>
+      <div class="filters" role="group" aria-label="Filter publications" hidden>
+        <button class="filter" type="button" data-filter="all" aria-pressed="true">All works</button>
+        <button class="filter" type="button" data-filter="journal" aria-pressed="false">Journal articles</button>
+        <button class="filter" type="button" data-filter="preprint" aria-pressed="false">Preprints</button>
+        <button class="filter" type="button" data-filter="conference" aria-pressed="false">Conference</button>
+      </div>
+      <div class="publication-list">
+        <article class="publication" data-type="journal" id="trajectory-entropy">
+          <div class="pub-label"><span class="venue-badge">TAC</span><p class="pub-year">2026</p></div>
+          <div class="pub-body">
+            <h3><a href="https://doi.org/10.1109/TAC.2026.3662306" target="_blank" rel="noopener">Maximizing Markov Trajectory Entropy under Kemeny Constraints for Robotic Surveillance</a></h3>
+            <p class="authors">Xiaoming Duan, <strong>Weizhen Wang</strong>, Rui Yan</p>
+            <p class="venue">IEEE Transactions on Automatic Control, 71(7): 4850–4857, 2026.</p>
+            <p class="summary">We design unpredictable robotic patrols by maximizing Markov trajectory entropy while constraining coverage efficiency through Kemeny’s constant. A closed-form identity links trajectory entropy to the product of entropy rate and Kemeny’s constant, motivating an explicit efficiency bound and enabling analysis of the resulting optimal chains. A numerical surveillance example illustrates the effectiveness of the resulting strategy against intruders that wait before launching an attack.</p>
+            <div class="pub-actions"><a href="https://doi.org/10.1109/TAC.2026.3662306" target="_blank" rel="noopener">Paper</a> <button class="bib-toggle" type="button" aria-expanded="false" aria-controls="bib-trajectory-entropy" hidden>BibTeX<span class="sr-only"> for Maximizing Markov Trajectory Entropy under Kemeny Constraints for Robotic Surveillance</span></button></div>
+            <div class="bib-panel" id="bib-trajectory-entropy" hidden>
+              <pre>@article{duan2026trajectoryentropy,
+  title = {Maximizing Markov Trajectory Entropy under Kemeny Constraints for Robotic Surveillance},
+  author = {Duan, Xiaoming and Wang, Weizhen and Yan, Rui},
+  year = {2026},
+  journal = {IEEE Transactions on Automatic Control},
+  volume = {71},
+  number = {7},
+  pages = {4850--4857},
+  doi = {10.1109/TAC.2026.3662306},
+  url = {https://doi.org/10.1109/TAC.2026.3662306}
+}</pre>
+              <button class="copy-citation" type="button" aria-live="polite">Copy citation</button>
+            </div>
+          </div>
+        </article>
+        <article class="publication" data-type="preprint" id="persistent-monitoring">
+          <div class="pub-label"><span class="venue-badge">arXiv</span><p class="pub-year">2026</p></div>
+          <div class="pub-body">
+            <h3><a href="https://arxiv.org/abs/2605.09633" target="_blank" rel="noopener">Minimizing Worst-Case Weighted Latency for Multi-Robot Persistent Monitoring: Theory and RL-Based Solutions</a></h3>
+            <p class="authors"><strong>Weizhen Wang</strong>, Ziheng Wang, Jianping He, Xinping Guan, Xiaoming Duan</p>
+            <p class="venue">arXiv:2605.09633 · 2026. <span class="status-note">Preprint.</span></p>
+            <p class="summary">How should a robot team revisit important locations without leaving any unattended for too long? We introduce tail-performance objectives for persistent monitoring on weighted graphs, establish their theoretical properties, and reformulate the problem as an event-driven Markov decision process. This enables reinforcement-learning solutions and M2Bench, a shared benchmark for comparing learned and heuristic monitoring strategies across synthetic and realistic environments.</p>
+            <div class="pub-actions"><a href="https://arxiv.org/abs/2605.09633" target="_blank" rel="noopener">Paper</a> <a href="https://arxiv.org/pdf/2605.09633" target="_blank" rel="noopener">PDF</a> <a href="https://github.com/SpikeW726/M2Bench" target="_blank" rel="noopener">Code</a> <button class="bib-toggle" type="button" aria-expanded="false" aria-controls="bib-persistent-monitoring" hidden>BibTeX<span class="sr-only"> for Minimizing Worst-Case Weighted Latency for Multi-Robot Persistent Monitoring: Theory and RL-Based Solutions</span></button></div>
+            <div class="bib-panel" id="bib-persistent-monitoring" hidden>
+              <pre>@misc{wang2026persistentmonitoring,
+  title = {Minimizing Worst-Case Weighted Latency for Multi-Robot Persistent Monitoring: Theory and RL-Based Solutions},
+  author = {Wang, Weizhen and Wang, Ziheng and He, Jianping and Guan, Xinping and Duan, Xiaoming},
+  year = {2026},
+  eprint = {2605.09633},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2605.09633}
+}</pre>
+              <button class="copy-citation" type="button" aria-live="polite">Copy citation</button>
+            </div>
+          </div>
+        </article>
+        <article class="publication" data-type="conference" id="defense-allocation">
+          <div class="pub-label"><span class="venue-badge">IFAC</span><p class="pub-year">2026</p></div>
+          <div class="pub-body">
+            <h3><a href="https://skoge.folk.ntnu.no/prost/proceedings/ifac2026_IFACWC26_preprints/IFAC26_ContentListMedia_2.html#tua30_03" target="_blank" rel="noopener">Joint Optimization of Defense Allocations and Surveillance Strategies against Random Intruders</a></h3>
+            <p class="authors"><strong>Weizhen Wang</strong>, Xiaoming Duan</p>
+            <p class="venue">IFAC-PapersOnLine · 2026. <span class="status-note">Accepted.</span></p>
+            <p class="summary">This work jointly designs defense-resource allocations and Markov-chain patrol strategies to increase the probability of capturing random intruders. An alternating optimization method updates the patrol strategy and resource allocation in turn. We derive gradients for patrol optimization, show that a greedy method optimally allocates defenses for a fixed strategy, and relate capture probability to Kemeny’s constant as a surveillance-design criterion.</p>
+            <div class="pub-actions"><a href="https://skoge.folk.ntnu.no/prost/proceedings/ifac2026_IFACWC26_preprints/IFAC26_ContentListMedia_2.html#tua30_03" target="_blank" rel="noopener">Abstract</a> <a href="https://skoge.folk.ntnu.no/prost/proceedings/ifac2026_IFACWC26_preprints/files/1863.pdf" target="_blank" rel="noopener">PDF</a> <button class="bib-toggle" type="button" aria-expanded="false" aria-controls="bib-defense-allocation" hidden>BibTeX<span class="sr-only"> for Joint Optimization of Defense Allocations and Surveillance Strategies against Random Intruders</span></button></div>
+            <div class="bib-panel" id="bib-defense-allocation" hidden>
+              <pre>@inproceedings{wang2026defenseallocation,
+  title = {Joint Optimization of Defense Allocations and Surveillance Strategies against Random Intruders},
+  author = {Wang, Weizhen and Duan, Xiaoming},
+  year = {2026},
+  booktitle = {IFAC-PapersOnLine},
+  note = {Accepted},
+  url = {https://skoge.folk.ntnu.no/prost/proceedings/ifac2026_IFACWC26_preprints/IFAC26_ContentListMedia_2.html#tua30_03}
+}</pre>
+              <button class="copy-citation" type="button" aria-live="polite">Copy citation</button>
+            </div>
+          </div>
+        </article>
+        <article class="publication" data-type="preprint" id="policy-gradient">
+          <div class="pub-label"><span class="venue-badge">arXiv</span><p class="pub-year">2025</p></div>
+          <div class="pub-body">
+            <h3><a href="https://arxiv.org/abs/2503.22244" target="_blank" rel="noopener">Analysis of On-policy Policy Gradient Methods under the Distribution Mismatch</a></h3>
+            <p class="authors"><strong>Weizhen Wang</strong>, Xinzhe Zhou, Jianping He, Xiaoming Duan</p>
+            <p class="venue">arXiv:2503.22244 · 2025; updated October 2026.</p>
+            <p class="venue"><strong>Conference version accepted to the IEEE Conference on Decision and Control (CDC).</strong> Journal version submitted.</p>
+            <p class="summary">Why do practical policy-gradient algorithms work even when their sampling distribution differs from the one required by theory? We analyze this mismatch, establish global convergence for tabular policies, and characterize when it speeds up or slows down asymptotic convergence. For more general policy parameterizations, explicit mismatch bounds clarify how the gap depends on the discount factor and connect theoretical guarantees with practical implementations.</p>
+            <div class="pub-actions"><a href="https://arxiv.org/abs/2503.22244" target="_blank" rel="noopener">Paper</a> <a href="https://arxiv.org/pdf/2503.22244" target="_blank" rel="noopener">PDF</a> <button class="bib-toggle" type="button" aria-expanded="false" aria-controls="bib-policy-gradient" hidden>BibTeX<span class="sr-only"> for Analysis of On-policy Policy Gradient Methods under the Distribution Mismatch</span></button></div>
+            <div class="bib-panel" id="bib-policy-gradient" hidden>
+              <pre>@misc{wang2025policygradient,
+  title = {Analysis of On-policy Policy Gradient Methods under the Distribution Mismatch},
+  author = {Wang, Weizhen and Zhou, Xinzhe and He, Jianping and Duan, Xiaoming},
+  year = {2025},
+  eprint = {2503.22244},
+  archivePrefix = {arXiv},
+  note = {Version 3, updated October 2026; conference version accepted to IEEE CDC; journal version submitted},
+  url = {https://arxiv.org/abs/2503.22244}
+}</pre>
+              <button class="copy-citation" type="button" aria-live="polite">Copy citation</button>
+            </div>
+          </div>
+        </article>
+        <article class="publication" data-type="journal" id="network-entropy">
+          <div class="pub-label"><span class="venue-badge">TAC</span><p class="pub-year">2025</p></div>
+          <div class="pub-body">
+            <h3><a href="https://doi.org/10.1109/TAC.2025.3575684" target="_blank" rel="noopener">Growing Well-Connected Networks for Entropy Rate Maximization</a></h3>
+            <p class="authors"><strong>Weizhen Wang</strong>, Xiaoming Duan, Jianping He</p>
+            <p class="venue">IEEE Transactions on Automatic Control, 70(11): 7636–7643, 2025.</p>
+            <p class="summary">Which new connections make a network support more unpredictable Markov-chain motion? This work studies how to select additional edges to increase the maximum achievable entropy rate. By treating edge additions as perturbations, it derives a linear approximation of their effect and builds efficient edge-selection heuristics. The analysis links these updates to directions of greatest improvement, while simulations assess their effectiveness across growing networks.</p>
+            <div class="pub-actions"><a href="https://doi.org/10.1109/TAC.2025.3575684" target="_blank" rel="noopener">Paper</a> <button class="bib-toggle" type="button" aria-expanded="false" aria-controls="bib-network-entropy" hidden>BibTeX<span class="sr-only"> for Growing Well-Connected Networks for Entropy Rate Maximization</span></button></div>
+            <div class="bib-panel" id="bib-network-entropy" hidden>
+              <pre>@article{wang2025networkentropy,
+  title = {Growing Well-Connected Networks for Entropy Rate Maximization},
+  author = {Wang, Weizhen and Duan, Xiaoming and He, Jianping},
+  year = {2025},
+  journal = {IEEE Transactions on Automatic Control},
+  volume = {70},
+  number = {11},
+  pages = {7636--7643},
+  doi = {10.1109/TAC.2025.3575684},
+  url = {https://doi.org/10.1109/TAC.2025.3575684}
+}</pre>
+              <button class="copy-citation" type="button" aria-live="polite">Copy citation</button>
+            </div>
+          </div>
+        </article>
+        <article class="publication" data-type="journal" id="graph-partitioning">
+          <div class="pub-label"><span class="venue-badge">TCNS</span><p class="pub-year">2025</p></div>
+          <div class="pub-body">
+            <h3><a href="https://doi.org/10.1109/TCNS.2024.3463502" target="_blank" rel="noopener">Multirobot Stochastic Patrolling via Graph Partitioning</a></h3>
+            <p class="authors"><strong>Weizhen Wang</strong>, Xiaoming Duan, Jianping He</p>
+            <p class="venue">IEEE Transactions on Control of Network Systems, 12(1): 300–312, 2025.</p>
+            <p class="summary">How should a team of robots divide an environment for efficient randomized patrols? This work assigns each robot a subgraph and a Markov-chain patrol strategy, using a team performance metric based on first hitting times. For unweighted complete graphs, the partitioning problem connects to maximum k-cut. A structure-aware descent heuristic offers finite-step convergence and a suboptimality bound, with numerical experiments evaluating the resulting patrol strategies.</p>
+            <div class="pub-actions"><a href="https://doi.org/10.1109/TCNS.2024.3463502" target="_blank" rel="noopener">Paper</a> <button class="bib-toggle" type="button" aria-expanded="false" aria-controls="bib-graph-partitioning" hidden>BibTeX<span class="sr-only"> for Multirobot Stochastic Patrolling via Graph Partitioning</span></button></div>
+            <div class="bib-panel" id="bib-graph-partitioning" hidden>
+              <pre>@article{wang2025graphpartitioning,
+  title = {Multirobot Stochastic Patrolling via Graph Partitioning},
+  author = {Wang, Weizhen and Duan, Xiaoming and He, Jianping},
+  year = {2025},
+  journal = {IEEE Transactions on Control of Network Systems},
+  volume = {12},
+  number = {1},
+  pages = {300--312},
+  doi = {10.1109/TCNS.2024.3463502},
+  url = {https://doi.org/10.1109/TCNS.2024.3463502}
+}</pre>
+              <button class="copy-citation" type="button" aria-live="polite">Copy citation</button>
+            </div>
+          </div>
+        </article>
+        <article class="publication" data-type="journal" id="efficiency-unpredictability">
+          <div class="pub-label"><span class="venue-badge">L-CSS</span><p class="pub-year">2024</p></div>
+          <div class="pub-body">
+            <h3><a href="https://doi.org/10.1109/LCSYS.2024.3515858" target="_blank" rel="noopener">On the Trade-Off Between Efficiency and Unpredictability in Stochastic Robotic Surveillance</a></h3>
+            <p class="authors"><strong>Weizhen Wang</strong>, Jianping He, Xiaoming Duan</p>
+            <p class="venue">IEEE Control Systems Letters, 8: 2829–2834, 2024.</p>
+            <p class="summary">Fast patrols and unpredictable motion can pull a surveillance strategy in different directions. This paper studies that tension through Kemeny&#x27;s constant and entropy rate, characterizing their Pareto trade-off for Markov-chain patrols. It then compares efficient strategies using distance to an ideal point and mixing rate, developing a convex optimization formulation for the former and a bisection-based heuristic for the latter.</p>
+            <div class="pub-actions"><a href="https://doi.org/10.1109/LCSYS.2024.3515858" target="_blank" rel="noopener">Paper</a> <button class="bib-toggle" type="button" aria-expanded="false" aria-controls="bib-efficiency-unpredictability" hidden>BibTeX<span class="sr-only"> for On the Trade-Off Between Efficiency and Unpredictability in Stochastic Robotic Surveillance</span></button></div>
+            <div class="bib-panel" id="bib-efficiency-unpredictability" hidden>
+              <pre>@article{wang2024efficiencyunpredictability,
+  title = {On the Trade-Off Between Efficiency and Unpredictability in Stochastic Robotic Surveillance},
+  author = {Wang, Weizhen and He, Jianping and Duan, Xiaoming},
+  year = {2024},
+  journal = {IEEE Control Systems Letters},
+  volume = {8},
+  pages = {2829--2834},
+  doi = {10.1109/LCSYS.2024.3515858},
+  url = {https://doi.org/10.1109/LCSYS.2024.3515858}
+}</pre>
+              <button class="copy-citation" type="button" aria-live="polite">Copy citation</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section id="experience" class="section" aria-labelledby="education-title">
+      <div class="section-heading"><h2 id="education-title">Education</h2></div>
+      <div class="entry">
+        <div><h3>Shanghai Jiao Tong University</h3><p>Ph.D. in Automation</p><p class="detail">Advisor: Prof. Xiaoming Duan</p></div>
+        <time>Sep. 2023 — Present</time>
+      </div>
+      <div class="entry">
+        <div><h3>Zhejiang University</h3><p>B.E. in Marine Engineering and Technology</p></div>
+        <time>Aug. 2019 — Jun. 2023</time>
+      </div>
+    </section>
+    <section class="section" aria-labelledby="honors-title">
+      <div class="section-heading"><h2 id="honors-title">Honors &amp; awards</h2></div>
+      <ul class="honor-list">
+        <li><time>2025</time><div>National Scholarship for Ph.D. Students <small>· Shanghai Jiao Tong University</small></div></li>
+        <li><time>2023</time><div>Provincial Outstanding Graduate <small>· Zhejiang University</small></div></li>
+        <li><time>2020 – 2022</time><div>National Scholarship for Undergraduates <small>· Three consecutive years</small></div></li>
+        <li><time>2020</time><div>First Prize, National College Student Mathematics Competition <small>· Non-mathematics category</small></div></li>
+        <li><time>2020</time><div>Second Prize, Zhejiang Province College Student Physics Innovation Competition</div></li>
+      </ul>
+    </section>
+    <section class="section" aria-labelledby="teaching-title">
+      <div class="section-heading"><h2 id="teaching-title">Teaching &amp; service</h2></div>
+      <div class="service-grid">
+        <div>
+          <h3 class="subheading">Teaching assistant · SJTU</h3>
+          <div class="teaching-item"><strong>AU7036 · Introduction to Multi-agent Systems</strong><p>Spring 2025</p></div>
+          <div class="teaching-item"><strong>AU4606 · Network Optimization</strong><p>Fall 2023, 2024, 2025, 2026</p></div>
+        </div>
+        <div>
+          <h3 class="subheading">Peer reviewer</h3>
+          <ul class="reviewer-list">
+            <li>IEEE Transactions on Control of Network Systems</li>
+            <li>IEEE Control Systems Letters</li>
+            <li>IEEE Network Magazine</li>
+            <li>IEEE Conference on Decision and Control</li>
+            <li>ACM Symposium on Applied Computing</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="section" aria-labelledby="talks-title">
+      <div class="section-heading"><h2 id="talks-title">Selected talks</h2></div>
+      <ul class="talk-list">
+        <li><time>Aug. 2026</time><div><p><strong>IFAC World Congress</strong> · Busan, South Korea</p><p class="talk-title">Joint Optimization of Defense Allocations and Surveillance Strategies against Random Intruders</p></div></li>
+        <li><time>Nov. 2025</time><div><p><strong>Chinese Conference on Swarm Intelligence and Cooperative Control</strong> · Shanghai, China</p><p class="talk-title">Multi-Robot Stochastic Patrolling via Graph Partitioning</p></div></li>
+        <li><time>Jul. 2025</time><div><p><strong>IEEE American Control Conference</strong> · Denver, USA</p><p class="talk-title">On the Trade-Off Between Efficiency and Unpredictability in Stochastic Robotic Surveillance</p></div></li>
+        <li><time>Oct. 2024</time><div><p><strong>Peking University</strong> · Beijing, China</p><p class="talk-title">Multi-Robot Stochastic Patrolling via Graph Partitioning</p></div></li>
+      </ul>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="shell footer-inner"><span>© 2026 Weizhen Wang</span><div class="footer-meta"><span>Last updated November 2026</span><a href="#about">Back to top ↑</a></div></div></footer>
+</body>
+</html>
